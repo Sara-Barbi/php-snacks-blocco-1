@@ -1,5 +1,39 @@
-<?php
+<!--
+Snack A
+Creiamo un array contenente le partite di basket di un’ipotetica tappa del calendario.
+Ogni array avrà una squadra di casa e una squadra ospite, punti fatti dalla squadra di casa e punti fatti dalla squadra ospite.
+Stampiamo a schermo tutte le partite con questo schema.
+Olimpia Milano - Cantù | 55-60
+-->
 
+<?php
+$squadre=[
+    [
+       "sqCasa" => "Reyer Venezia Mestre",
+       "sqOspite" => "Pallacanestro Varese",
+       "puntiCasa" => "50",
+       "puntiOspite" => "65",
+    ],
+    [
+        "sqCasa" => "Polisportiva Dinamo",
+        "sqOspite" => "Pallacanestro Reggiana",
+        "puntiCasa" => "80",
+        "puntiOspite" => "71",
+    ],
+    [
+        "sqCasa" => "Reyer",
+        "sqOspite" => "Cantù",
+        "puntiCasa" => "40",
+        "puntiOspite" => "49",
+    ],
+    [
+        "sqCasa" => "Basket Torino",
+        "sqOspite" => "New Basket Brindisi",
+        "puntiCasa" => "76",
+        "puntiOspite" => "65",
+    ],
+];
+   
 
 
 ?>
@@ -15,7 +49,10 @@
     <title>Document</title>
 </head>
 <body>
+    <div>
+        <span><?php echo $squadre[0]["sqCasa"] ?></span>
 
+    </div>
 
     
 </body>
