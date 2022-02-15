@@ -51,7 +51,27 @@ $squadre=[
 <body>
     <div>
         <span><?php echo $squadre[0]["sqCasa"] ?></span>
-
+        <span><?php echo $squadre[0]["sqOspite"] ?> |</span>
+        <span><?php echo $squadre[0]["puntiCasa"] ?></span>
+        <span><?php echo $squadre[0]["puntiOspite"] ?></span>
+    </div>
+    <div>
+        <span><?php echo $squadre[1]["sqCasa"] ?></span>
+        <span><?php echo $squadre[1]["sqOspite"] ?> |</span>
+        <span><?php echo $squadre[1]["puntiCasa"] ?></span>
+        <span><?php echo $squadre[1]["puntiOspite"] ?></span>
+    </div>    
+    <div>
+        <span><?php echo $squadre[2]["sqCasa"] ?></span>
+        <span><?php echo $squadre[2]["sqOspite"] ?> |</span>
+        <span><?php echo $squadre[2]["puntiCasa"] ?></span>
+        <span><?php echo $squadre[2]["puntiOspite"] ?></span>
+    </div>
+    <div>
+        <span><?php echo $squadre[3]["sqCasa"] ?></span>
+        <span><?php echo $squadre[3]["sqOspite"] ?> |</span>
+        <span><?php echo $squadre[3]["puntiCasa"] ?></span>
+        <span><?php echo $squadre[3]["puntiOspite"] ?></span>
     </div>
 
     
