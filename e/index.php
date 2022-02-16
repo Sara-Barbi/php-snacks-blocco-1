@@ -41,17 +41,21 @@ $alumnArr = [
         "nome"=>"alessia",
         "cognome"=>"cini",
         [
-            "matematica"=>"7",
-            "italiano"=>"5",
-            "inglese"=>"6",
+            "matematica" => "7",
+            "italiano" => "5",
+            "inglese" => "6",
             "informatica"=>"5"
         ]
     ],
 ];
+
+
+
 for($i=0; $i<count($alumnArr); $i++){
-    echo "<div>".$alumnArr[$i]['nome'] ."</div>
+    
+    echo "<div>".$alumnArr[$i]['nome']."</div>
           <div>" .$alumnArr[$i]['cognome'] ."</div>
-          ";
+          <div>".(($alumnArr[$i][0]['matematica']+$alumnArr[$i][0]['italiano']+$alumnArr[$i][0]['inglese']+$alumnArr[$i][0]['informatica'])/4)."</div> </br>";
           
 }
 ?>
